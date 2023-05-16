@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'calibri light';
+}
+#raya{
+	position: absolute;
+	width: 100vw;
+	height: 1px;
+	transform:translateY(130px);
+	background: #F90404;
+}
+/*Estilo de la barra de color negro*/
+#linea{
+	width: 100%;
+	height: 50px;
+	background: #0A0A0A;
+}
+#Hard{
+	position: absolute;
+	padding-top: 0px;
+	color: #0A0A0A;
+	font-family:'Lucida Console';
+    font-size: 140.25%;
+    transform: translateX(60px)translateY(90px);
+}
+/*Estilo de la barra de abajo*/
+#linea2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	padding-top: 0px;
+	text-align: center;
+	background: #0A0A0A;
+	font-family: "Open Sans";
+	color: #fff;
+}
+/*Estilo de la barra de menu*/
+#header{
+	width: 100%;
+	height: 75px;
+}
+
+/* Estilo del contenedor de la barra de menu */
+#header #centro1{
+	width: 100%;
+	height: 75px;
+	background: #fff;
+	transform: translateX(0px);
+}
+
+/*Estilo para la parte del logotipo*/
+#header #centro1 #logo{
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(60px) translateY(10px);
+}
+#header #centro1 #Nombrelogo{
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(70px) translateY(15px);
+}
+
+
+/*-------------------Menu--------------------*/
+#header #menu{ 
+	float: right;
+	margin-top: 10px;
+	background: #fff;
+}
+#header #menu ul{
+	list-style: none;
+}
+#header #menu li{
+	position: relative;
+	display: inline-block;
+}
+#header #menu li a{
+	display: block;
+	padding: 0px 20px;
+	color: #353535;
+	text-decoration: none;
+	/*margin: 0px 4px;*/
+}
+#header #menu ul li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/*-------SubMenu-------*/
+#header #submenu {
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	padding: 15px;
+	text-align: center;
+}
+#header #submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family:'calibri light';
+	text-decoration: none;
+}
+#header #menu li:hover #submenu{
+	visibility: visible;
+	opacity: 1;
+}
+#Text1{
+	position: absolute;
+	color: #0A0A0A;
+	font-family:'Calibri light';
+    font-size: 120.25%;
+    line-height: 1.5;
+    transform: translateX(100px)translateY(130px);
+}
+#Text2{
+	position: absolute;
+	color: #0A0A0A;
+	font-family:'Calibri light';
+    font-size: 120.25%;
+    line-height: 1.5;
+    transform: translateX(700px)translateY(330px);
+}
+#hard1{
+	position: absolute;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(1000px) translateY(200px);
+}
+#hard2{
+	position: absolute;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(710px) translateY(190px);
+}
+#hard3{
+	position: absolute;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(360px) translateY(295px);
+}
+#hard4{
+	position: absolute;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	transform: translateX(100px) translateY(300px);
+}
